@@ -6,9 +6,9 @@ use Symfony\Component\HttpFoundation\JsonResponse;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Routing\Annotation\Route;
 
-class LuckyControllerJson
+class PublicControllerJson
 {
-    #[Route("/api/lucky/number")]
+    #[Route("/api/quote")]
     public function jsonNumber(): Response
     {
         $number = random_int(0, 100);

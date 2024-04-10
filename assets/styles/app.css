@@ -1,10 +1,91 @@
+html {
+    box-sizing:border-box
+}
+
+*, :after, :before {
+    box-sizing:inherit
+}
+
+html {
+    line-height: 1.15
+}
+
+body {
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    font-family: "Times New Roman", Times, serif;
+}
+
 body {
     margin: 0 auto;
-    max-width: 400px;
-    background: url('../images/background.jpg');
-    background-size: cover;
+    background-color: aliceblue;
+    /*background: url('../images/pattern.png');*/
+}
+
+header {
+    height: 50px;
+    border-bottom: 5px solid black;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 5px solid black;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+nav li {
+    margin: 0 30px;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+nav a:hover {
+    color: blue;
+    text-decoration: underline;
+}
+
+main {
+    height: auto;
+    margin: 0 10vw;
 }
 
 h1 {
     border-bottom: 4px double #ccc;
+}
+
+footer {
+    border-top: 5px solid black;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+footer div.text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+}
+
+footer div.text p {
+    margin: 0;
+}
+
+footer div.pattern {
+    border-top: 5px solid black;
+    height: 50px;
 }
