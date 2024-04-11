@@ -62,8 +62,57 @@ main {
     margin: 0 10vw;
 }
 
+main div.text {
+    display: flex;
+    align-items: center;
+    width: 50%;
+}
+
+main div.reporttext {
+    margin-right: 50%;
+}
+
+main div.text img {
+    width: 300px;
+    height: auto;
+    margin-right: 10px;
+}
+
+main div.text div.paragraphs {
+    flex: 1;
+}
+
+div.report {
+    display: flex;
+    align-items: flex-start;
+}
+
+div.report div.nav {
+    flex: 0 0 auto;
+    padding-right: 20px;
+    margin-right: 20px;
+    border: none;
+}
+
+div.report div.nav ul {
+    font-size: 20px;
+    padding: 0;
+    margin: 0;
+}
+
+div.report div.text {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
 h1 {
     border-bottom: 4px double #ccc;
+}
+
+span.lucky {
+    color: coral;
 }
 
 footer {
