@@ -20,4 +20,4 @@ Stå i projektmappen och kör följande kommando:
 php -S localhost:8888 -t public
 ```
 
-Gå till http://localhost:8888 i den webbläsare
+Gå till http://localhost:8888 i din webbläsare
